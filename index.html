@@ -54,6 +54,13 @@
       <li><div>12</div></li>
     </ul>
 
+
+    <h2><p><b> Форма для загрузки файлов </b></p></h2>
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="filename"><br> 
+      <input type="submit" value="Загрузить"><br>
+      </form>
+
   <script type="text/javascript">
     $("#list1").dragsort({ dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
     
